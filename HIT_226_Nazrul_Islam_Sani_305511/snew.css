@@ -1,0 +1,56 @@
+*{
+  mirgin: 0;
+  padding: 0;
+}
+body{
+
+  border-style: solid;
+  border-color: black;
+  border-width: large;
+  text-align: center;
+
+}
+h1{
+  text-align: center;
+  padding: 20px;
+}
+h2{
+  text-align: center;
+  padding: 20px;
+}
+input[type=text], select {
+  width: 20%;
+  padding: 10px 15px;
+  margin: 6px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+input[type=number], select {
+  width: 20%;
+  padding: 10px 15px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+input[type=email], select {
+  width: 20%;
+  padding: 10px 15px;
+  margin: 6px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+input[type=date], select {
+  width: 20%;
+  padding: 10px 15px;
+  margin: 6px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
