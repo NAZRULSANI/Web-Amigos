@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Registration</title>
+    <link href="form.css" rel="stylesheet">
+</head>
+
+<body>
+    <form class="shadow">
+        <div class="serif" >
+        <h1>Register Here</h1>
+        </div>
+
+        <section>
+            <p>
+                <label for="title">
+                    <span>Select Title</span>
+                </label>
+                <select id="title" name="title">
+                <option value="mr">Mr</option>
+                <option value="miss">Miss</option>
+                <option value="mrs">Mrs</option>
+                <option value="dr">Ms</option>
+                <option value="dr">Dr</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="name_1">
+                    <span>Full name </span>
+                </label>
+                <input type="text" id="name_1" name="name_1" placeholder="e.g John Prudy" required>
+            </p>
+            <p>
+                <label for="address">
+                    <span>Address </span>
+
+                </label>
+                <input type="text" id="address" name="address" placeholder="xx street, suburb, postcode, state"required>
+            </p>
+
+            <p>
+                <label for="email">
+                    <span>E-mail </span>
+
+                </label>
+                <input type="email" id="mail" name="email" placeholder="xxxx@gmail.com"required>
+            </p>
+            <p>
+                <label for="telno">
+                    <span>Telephone </span>
+
+                </label>
+                <input type="telno" id="telno" name="telno" placeholder="080xxxxxx" >
+            </p>
+            <p>
+                <label for="date">
+                    <span>Birthdate</span>
+
+                </label>
+                <input type="date" id="date" name="birthdate" placeholder="25/02/1998"required>
+            </p>
+        </section>
+        <section>
+            <p> <button type="submit">Register</button> </p>
+    <div class="or">OR</div>
+            <div class="button_2">
+                <button class="google">Log in with Google+</button>
+            </div>
+        </section>
+    </form>
+</body>
+
+</html>
