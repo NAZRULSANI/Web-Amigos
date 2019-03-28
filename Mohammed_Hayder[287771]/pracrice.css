@@ -1,0 +1,146 @@
+body  {
+  text-align: center;
+  background-position: 100% 0;
+  background-color: #9a1750;
+}
+h1 {
+    margin-top: 0;
+}
+.serif{
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    color: #5d001e;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 2em;
+    display:inline-block;
+    border: 2px solid #e3e2df;
+    border-radius: .05em;
+    background-color:#e3e2df;
+    padding: 10px;
+
+}
+.shadow
+{
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 20px 40px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.shadow:before, .shadow:after
+{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:10px;
+    bottom:10px;
+    left:0;
+    right:0;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.shadow:after
+{
+    right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+
+}
+
+div+div {
+    margin-top: 1em;
+}
+select {
+    font: 1em sans-serif;
+    display: inline-flex;
+    width: 120px;
+    text-align: right;
+}
+
+label span {
+    font:bold 1em sans-serif;
+    display: inline-flex;
+    width: 120px;
+    text-align: right;
+}
+
+
+input, textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  font: 1em sans-serif;
+  width: 250px;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDDDD;
+}
+
+input:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(255,0,0,0.2);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(255,0,0,0.2);
+}
+
+
+}
+
+input:focus, textarea:focus {
+    border-color: #000;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+
+fieldset {
+    width: 250px;
+    box-sizing: border-box;
+    margin-left: 136px;
+    border: 10px solid #555;
+}
+
+button {
+  background-color: #ee4c7c;
+  border-radius: 8px;
+  font-size: 20px;
+  color: white;
+  padding: 14px 20px;
+  margin: 2px 0;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-right:25%
+}
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+label {
+  position: relative;
+}
+
+label em {
+  position: absolute;
+  right: 5px;
+  top: 20px;
+}
